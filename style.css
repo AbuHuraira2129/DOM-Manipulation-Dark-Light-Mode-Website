@@ -1,0 +1,88 @@
+/* 
+    DOM Manipulation - Light & Dark Mode
+    By - Muhammad Abu Huraira
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    padding: 20px;
+}
+
+header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#logo{
+    color: rgb(41, 41, 41);
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#mode{
+    padding: 8px;
+    border: none;
+    background-color: blue;
+    border-radius: 99%;
+}
+
+#mode span{
+    width: 24px;
+    color: white;
+}
+
+main{
+    background-color: whitesmoke;
+    padding: 30px;
+    margin-top: 20px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h1{
+    font-size: 80px;
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Inter, sans-serif;
+    color: rgb(74, 74, 74);
+}
+
+.content button{
+    width: fit-content;
+    padding: 14px 30px;
+    border: none;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+}
